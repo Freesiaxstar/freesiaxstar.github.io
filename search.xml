@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>SSR客户端-ShadowsocksR-win使用浅谈</title>
+      <link href="posts/74070353/"/>
+      <url>posts/74070353/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>谨以这篇教程献给对FOX来说的很重要的一个人。（不会告诉你是谁的）哼(￢︿̫̿￢☆)，猜测了也不要找我核实</p></blockquote><h2 id="SSR"><a href="#SSR" class="headerlink" title="SSR"></a>SSR</h2><p>是一种很好用的PC-Windows-SSR客户端，Windows限定。</p><h3 id="使用这个软件所需要的配置要求"><a href="#使用这个软件所需要的配置要求" class="headerlink" title="使用这个软件所需要的配置要求"></a>使用这个软件所需要的配置要求</h3><p>系统要求：<br>Windows XP 及以上<br>软件版本：<br>ShadowsocksR 最新版<br>设备要求：<br>Windows PC / Tablet</p><h3 id="作者的Q-amp-A"><a href="#作者的Q-amp-A" class="headerlink" title="作者的Q&amp;A"></a>作者的Q&amp;A</h3><p>SSR全称是什么？<br>正确为ShadowsocksR，有人称之为Shadowsocks-rss是错误的，rss是Really Simple Syndication的缩写</p><p>服务端混淆参数需要和客户端一样吗？<br>不需要，服务端的参数含义完全不一样，建议详细阅读说明，且在多用户模式下，其参数不应由用户自定义，应该由管理员预设好</p><p>客户端任务栏图标有什么快捷操作？<br>左键点击弹出服务器编辑窗口，中键点击或ctrl+左键弹出服务器统计窗口，右键弹出菜单，shift+左键弹出选项设置窗口</p><p>客户端任务栏图标颜色有什么含义？<br>关闭系统代理时为蓝色，PAC模式时绿色，全局时青色，开启负载均衡时在前面的颜色里加上红色</p><blockquote><p>学美术的应该可用知道是什么颜色的说。</p></blockquote><h2 id="具体的使用"><a href="#具体的使用" class="headerlink" title="具体的使用"></a>具体的使用</h2><h3 id="客户端的选择"><a href="#客户端的选择" class="headerlink" title="客户端的选择"></a>客户端的选择</h3><p>首先根据你系统安装 .NET Framework v2.0或4.0的支持库 来选择客户端中的 ShadowsocksR-dotnet2.0.exe 或 ShadowsocksR-dotnet4.0.exe 并打开客户端。</p><h3 id="导入订阅或添加ssr服务器地址"><a href="#导入订阅或添加ssr服务器地址" class="headerlink" title="导入订阅或添加ssr服务器地址"></a>导入订阅或添加ssr服务器地址</h3><p>在任务栏里可用找到一个纸飞机SSR图标<br><img src="https://pan.freesia.workers.dev/%E5%B2%9A%E5%8D%9A%E5%AE%A2%E7%94%A8%E7%9A%84%E5%9B%BE%E7%89%87/SSR.png"><br>这个图标颜色会变化。<br><img src="https://pan.freesia.workers.dev/%E5%B2%9A%E5%8D%9A%E5%AE%A2%E7%94%A8%E7%9A%84%E5%9B%BE%E7%89%87/%E4%BB%BB%E5%8A%A1%E6%A0%8F%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E7%9A%84%E5%9B%BE%E6%A0%87.png"><br>如果看不到到这里找一下显示隐藏的图标</p><p><strong>右键</strong>打开会显示菜单<br><img src="https://pan.freesia.workers.dev/%E5%B2%9A%E5%8D%9A%E5%AE%A2%E7%94%A8%E7%9A%84%E5%9B%BE%E7%89%87/%E8%8F%9C%E5%8D%95.png"></p><p>多级目录下，功能是这样的。<br><strong>系统代理模式</strong>：</p><ul><li>直连模式-不通过代理服务</li><li>PAC模式-按照pac代理表进行分流代理</li><li>全局模式-全部网络流量同过代理服务器进行转发 </li></ul><p><strong>代理规则</strong>：一般不用动选择绕过局域网和大陆即可</p><p><strong>服务器</strong>：手动添加ssr服务器配置，有订阅的不在这里添加。</p><p><strong>服务器订阅</strong>：</p><ul><li>服务器订阅设置[这个用来添加你的订阅地址]|[自动更新可以开一下]</li><li>更新SSR服务器订阅[字面意思，手动更新SSR服务器订阅]</li><li>更新SSR服务器订阅(不通过代理)[当上面的更新更新不到时用这个]</li></ul><p><strong>开启代理</strong><br>右键 纸飞机 图标弹出菜单并选择 系统代理模式 —— PAC模式 或 全局模式</p><p>目前ShadowsocksR客户端的国内外分流规则分两种，PAC规则（系统代理模式） 和 代理规则</p><p>PAC规则 是根据PAC文件中的黑白地址名单来判断那些网站走代理，也就是判断 流量数据是进入SSR客户端还是直连。</p><p>代理规则 是根据IP判断，分 绕过局域网/绕过局域网和大陆/绕过局域网和非大陆 ，用于判断 进入SSR客户端的数据流量是走代理还是直连。</p><p>绕过局域网，局域网内IP 不走代理直连，局域网外IP 都走代理。<br>绕过局域网和大陆，访问网站的是 大陆IP 都不走代理直连，访问 非大陆IP 的网站都走代理。<br>绕过局域网和非大陆，访问网站的是 大陆IP 都走代理，访问 非大陆IP 的网站都不走代理，这个一般是海外访问国内网站用的。<br>这两种判断方式是相互配合使用的，先用系统代理模式来判断是否让数据进入SSR客户端，再用代理规则来判断进入SSR客户端的数据是直连还是走代理。</p><blockquote></blockquote><p>举个栗子：假设系统代理模式为 PAC，那么访问 <a href="http://www.google.com/">www.google.com</a> ，浏览器在PAC文件中匹配这个域名，并发现这个域名按PAC规则规则应走代理，所以 浏览器就会发送 访问网页数据到 PAC中的代理服务器(默认如127.0.0.1:1080)，于是SSR客户端就收到了 访问谷歌的数据，而这时候就该用 代理规则 判断了。</p><p>首先代理规则为：绕过局域网，则判断 <a href="http://www.google.com/">www.google.com</a> 域名的IP是否是局域网IP，然而不是局域网IP，于是走代理。</p><p>代理规则为：绕过局域网和大陆，则判断 <a href="http://www.google.com/">www.google.com</a> 域名的IP是否是局域网IP 或 大陆IP，然而不是局域网IP或大陆IP，于是走代理。</p><p>代理规则为：绕过局域网和非大陆，则判断 <a href="http://www.google.com/">www.google.com</a> 域名的IP是否是局域网IP 或 非大陆IP，然而是非大陆IP，于是不走代理，直连。</p><p>代理规则为：全局，不判断 <a href="http://www.google.com/">www.google.com</a> 域名的IP，直接走代理。</p><hr><p>总归，如果你实在不理解，那么你就代理规则选择 PAC模式 ，系统代理模式选择 绕过局域网和大陆 即可，可以以后慢慢尝试和理解。</p><h3 id="选项设置中的配置"><a href="#选项设置中的配置" class="headerlink" title="选项设置中的配置"></a>选项设置中的配置</h3><p>在右键 纸飞机 图标后弹出菜单并选择 选项设置 ，然后你就会看到下面的窗口。</p><p>当你需要局域网内其他设备链接你这个电脑上面的Shadowsocks客户端时，你需要勾选 本地代理 —— 允许来自局域网的链接 。</p><p>当然其他设备链接 你这个电脑上面的Shadowsocks客户端的时候，软件要一直开着并链接着Shadowsocks服务器。</p><p>开机启动 不需要我解释了吧。</p><p><strong>负载均衡功能，官方的解释是</strong>：</p><blockquote><p>负载均衡功能，适用于网页浏览，不适用于看视频或下载等需要大流量的环境。如需下载请在连接统计窗口通过下载测速测试速度最快的服务器然后单独连接之。</p></blockquote><p>简单的说就是，用用这个节点用用那个节点，不照着一个节点用，并不是所有Shadowsocks节点都一起使用，达成所有节点负载均衡的目的。所以大流量的时候不要开这个。</p><p>自动禁用出错服务器，这个就是当你某些Shadowsocks节点无法使用，会自动禁用，避免开启 负载均衡 的时候使用到无法连接的Shadowsocks节点。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>是个很简单的软件适应力很强，出问题的话可以先谷歌后问我</p><p align="right">洛梓岚</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 那些工具们 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -生产力工具 -那些优秀的软件们 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>岚用的一家机场——海豚湾</title>
+      <link href="posts/38110c2/"/>
+      <url>posts/38110c2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="海豚湾"><a href="#海豚湾" class="headerlink" title="海豚湾"></a>海豚湾</h3><p><img src="https://s1.ax1x.com/2020/04/15/Ji6ef0.jpg" alt="海豚湾"></p><blockquote><p>这家机场和海豚加速器没有关系阿。</p></blockquote><p><strong>官网：</strong><a href="https://cutt.ly/alK5zlp" title="海豚湾.com"><strong>海豚湾.com</strong></a></p><p>然后呢。</p><p>这家机场的大海豚套餐呢，是以大海豚节点BGP+优化路由+动态隧道负载均衡的IPLC进行交付的。</p><p>个人在用十分推荐。</p><h3 id="IPLC是个什么鬼玩意"><a href="#IPLC是个什么鬼玩意" class="headerlink" title="IPLC是个什么鬼玩意"></a>IPLC是个什么鬼玩意</h3><blockquote><p><a href="https://baike.baidu.com/item/IPLC" title="百度百科">百度百科</a><br><a href="https://www.duyaoss.com/archives/57/" title="隔壁大佬的资料">隔壁大佬的资料</a></p></blockquote><p>IPLC: “International Private Leased Circuit”的缩写，即“国际专线”。不过大部分机场通常看到的iplc，都只是阿里的经典网络，跨数据中心内网互通，阿里内网，并不是严格意义的iplc专线；当然也有其他渠道的，或真iplc，不过比较少。阿里云的内网互通底层原理是通过采购多个点对点的iplc专线，来连接各个数据中心，从而把各个数据中心纳入到自己的一套内网里面来。这样做有两个好处，其一是iplc链路上的带宽独享，完全不受公网波动影响，其二是过境的时候不需要经过GFW，确保了数据安全且不受外界各种因素干扰。但是需要注意一下阿里云的iplc也是有带宽上限的，如果过多的人同时挤到同一条专线上，峰值带宽超过专线的上限的话也同样会造成网络不稳定。其他渠道购买到的iplc价格很高，阿里云内网这种性价比超高这种好东西且用且珍惜。</p><h3 id="套餐及其价格"><a href="#套餐及其价格" class="headerlink" title="套餐及其价格"></a>套餐及其价格</h3><p><strong>这是官网对套餐的描述</strong><br>小海豚区:标准直连&amp;部分BGP优化,适合日常办公使用,对网络要求不高的用户<br>大海豚区:大量IPLC专线&amp;少量BGP高级优化,适合影音需求,对速度和稳定性有要求的用户<br>超级海豚区:企业级CEN专线,速度以及稳定性100%保证.任何时间段,任何时期确保稳定.</p><blockquote><p>超级海豚：69元/月，700G流量；799元/年，8400G流量；同时在线设备6台，新增独立专线<br>大海豚：49元/月，700G流量；135元/季，2100G流量；530元/年，8400G流量；同时在线设备4台，增加专线和BGP节点<br>小海豚：100元/季，2100G流量；380元/年，8400G流量；同时在线设备2台，主要是直连节点，和部分BGP和部分限速专线<br>幼海豚：66元/季度，288G流量；同时在线设备4台</p></blockquote><p>需要注意：</p><blockquote><p>支持SSR<br>首页不定期刷新邀请码<br>支付方式：支付宝+微信+虚拟货币<br>虚拟货币充值95折。</p></blockquote><p><strong>官网：</strong><a href="https://cutt.ly/alK5zlp" title="海豚湾.com"><strong>海豚湾.com</strong></a></p><h2 id="为何推荐"><a href="#为何推荐" class="headerlink" title="为何推荐"></a>为何推荐</h2><p>这个价格可以认为和RIX比肩了。可为何还要挑一个看起来档次低了一级的呢？</p><p>主营深港IPLC还有2条深美IPLC(时间2020-05-03 20:20:06)<br>之前扩容过大海豚的速率了，并且修正了链接问题。<br>所以FOX本人在深圳自然诚意推荐。</p><p>有一点要说的就是这种东西涉及到三个参数：价格，速度，稳定程度。</p><p>三者属于不可能三角形的三边，毕竟一份钱一分货。有更好的，我自然会自己用，然后推荐出来。</p><p>洛梓岚</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 评鉴 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 评鉴 </tag>
+            
+            <tag> 那些好用的工具们 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《星光咖啡馆与死神之蝶》评鉴TIME</title>
+      <link href="posts/675dda8b/"/>
+      <url>posts/675dda8b/</url>
+      
+        <content type="html"><![CDATA[<h3 id="星光咖啡馆与死神之蝶基本信息"><a href="#星光咖啡馆与死神之蝶基本信息" class="headerlink" title="星光咖啡馆与死神之蝶基本信息"></a>星光咖啡馆与死神之蝶基本信息</h3><h3 id="萌娘百科的介绍"><a href="#萌娘百科的介绍" class="headerlink" title="萌娘百科的介绍"></a>萌娘百科的介绍</h3><p>主角 高岭昂晴，过着平淡无奇的学生生活。<br>有一天，因为意外事故而丧命，但…发生了想不到的事，<br>本应死亡的高岭昂晴，却睁开了双眼——</p><p>然而在他眼前的是，发生意外的当天早晨。<br>不知道为什么，又一次过着相同的一天，不是预知梦，也不是即视感，发生的事完全相同。<br>带着对于整件事的未知与害怕，又回到了事故的现场。</p><p>最后…在要再次发生意外的瞬间——<br>他与“死神”以及“会说人话的猫”相会了。</p><p>并被告知了，<br>『你的死暂时没有办法完全回避』</p><p>高岭昂晴为了尝试脱离这个死亡的命运，必须在死神身边协助她工作…<br>然而不知道为什么，开始了在咖啡店打工的日子。</p><p>时间倒流重回到世界的高岭昂晴，暂时跨越了死亡的现实。<br>但，他需要去面对的却又是无法逃离的死亡因果。<br>如果要说的话，这是个，一个男人向自己的命运、世界挑战的恋爱故事……吧？</p><blockquote><p>阅读更多：<a href="https://zh.moegirl.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6">星光咖啡馆与死神之蝶</a><br>本文引自<a href="https://zh.moegirl.org/">萌娘百科</a>，文字内容默认使用《知识共享 署名-非商业性使用-相同方式共享 3.0》协议。<br><a href="https://baike.baidu.com/item/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6/23749507">百度百科</a></p></blockquote><h3 id="资源提供"><a href="#资源提供" class="headerlink" title="资源提供"></a>资源提供</h3><blockquote><p>忧郁的弟弟<br><a href="https://www.hhgal.com/xingguangkafeiguanyusishenzhidie.html" title="星光咖啡馆与死神之蝶">星光咖啡馆与死神之蝶</a><br>感谢制作汉化硬盘版的大佬，赞美汉化组。</p></blockquote><h3 id="岚的吐槽"><a href="#岚的吐槽" class="headerlink" title="岚的吐槽"></a>岚的吐槽</h3><h4 id="剧情吐槽"><a href="#剧情吐槽" class="headerlink" title="剧情吐槽"></a>剧情吐槽</h4><p>理解<strong>标题</strong>的话，星光咖啡馆就够了。虽然按照柚子的设定，稍微的奇幻色彩属于平常现象，像是千恋*万花，riddle joker这两部作品中的特有元素。但是在作品中奇幻色彩是用来推动主线剧情和建造场景。</p><p>例如，《千恋万花》中的幼刀和《riddle joker》中的学姐<strong>式部茉优</strong>一样都是和剧情结合紧密并且得到了不太一般的效果的。凭我我现在玩到的部分来描述，这部作品让人感觉。星光咖啡馆才是主体，死神之蝶<strong>存在感</strong>太弱。作用只是合理的解释了男主为何而复活，仅此而已。</p><p>对于<strong>后面情节</strong>来说，<strong>超现实元素</strong>不够。</p><h4 id="纯爱出名的制作当然还是适合废萌"><a href="#纯爱出名的制作当然还是适合废萌" class="headerlink" title="纯爱出名的制作当然还是适合废萌"></a>纯爱出名的制作当然还是适合废萌</h4><p>就<strong>废萌</strong>部分来说柚子一如既往吧。<br>强调不要理解剧情，你只要知道故事里的人活的很幸福。即使遇到了问题，但是他们也能努力战胜取得幸福。</p><blockquote><p>先来点玻璃，但是最后一定是糖。</p></blockquote><p>所以是无脑纯爱阿，不要细想，细想破坏游戏体验。请这样去安慰自己。<br>因为柚子的脚本是<strong>分开写的</strong>，由脚本师分开完成，再统一组装。所以感觉没把<em>手脚放开来</em>。</p><h4 id="系统方面"><a href="#系统方面" class="headerlink" title="系统方面"></a>系统方面</h4><p>对于<em>柚子社</em>的<strong>gal系统</strong>还是一如既往的好评吧。毕竟操作性很强，虽然在gal要求<strong>操作性</strong>，属实奇怪。<br>但是如果<strong>方便操作，容易存档</strong>的话的确有可圈可点的地方。<br>特别是流程图，怎莫说，方便<strong>进入</strong>个人线，直接在流程图里改变曾经的选项就可以了。也不用特别去存档。<br>系统可以给<strong>满分</strong>，能满足对gal系统的一切幻想。</p><h3 id="剧情评鉴"><a href="#剧情评鉴" class="headerlink" title="剧情评鉴"></a>剧情评鉴</h3><h4 id="共通线"><a href="#共通线" class="headerlink" title="共通线"></a>共通线</h4><p><em>共通线</em>体量偏小，内容较为薄弱，更多的发展放在了个人线。也就是说个人线的<strong>变化</strong>会更多。在人物关系塑造方面会更有<strong>创造力</strong>。</p><p>在这一部分属实没看到太多的<strong>死神之蝶</strong>（扑棱蛾子出场太少）<strong>缺少设定存在感</strong>。倒像是一个励志开咖啡馆的故事。最后以成功结束。</p><p>所以共通线的<strong>不足</strong>就在于单纯的废萌玩开咖啡馆的故事情节不是很能吸引人。但是对于<strong>萌豚</strong>来说足够了。</p><p>共通线的选项不丰富，只要改变几个选项就可以进入对应线路。看起来薄弱。<br>感觉就是很容易<strong>变心</strong>阿，指<em>男主</em>。很容易就改变了目标啊 23333</p><h4 id="明月栞那"><a href="#明月栞那" class="headerlink" title="明月栞那"></a><a href="https://zh.moegirl.org/%E6%98%8E%E6%9C%88%E6%A0%9E%E9%82%A3">明月栞那</a></h4><blockquote><p>完成了。来写评鉴了</p></blockquote><div class='spoiler collapsed'>    <div class='spoiler-title'>        骚话精选集    </div>    <div class='spoiler-content'>        <p><img src="https://s1.ax1x.com/2020/04/15/J9IGlt.png" alt="明月小姐的骚话"><br><img src="https://s1.ax1x.com/2020/04/16/JFm8lF.png" alt="明月小姐的骚话"><br><img src="https://s1.ax1x.com/2020/04/16/JFnmcD.png" alt="男主&amp;明月小姐的骚话"><br><img src="https://raw.githubusercontent.com/Freesiaxstar/freesia-s-Figure-bed/master/20200416110146.png" alt="男主的骚话"></p>    </div></div><p>明月小姐真的是十分色情的呢。/笑</p><p>这条线你能学到很多骚话，绝对是没错的。</p><p>这个线路你能看到明月小姐十分色情的一面。</p><p>比起共通线里看到的更为色情。那只猫妖米伽多称她色情淫乱（死神）女。</p><p>还是很色情的说。这条线是和死神结合最紧密的线路。/笑。</p><div class='spoiler collapsed'>    <div class='spoiler-title'>        可能涉及剧透，慎看    </div>    <div class='spoiler-content'>        <p>这条线路里的死神最后变成了人。这个世界灵魂强大的相当于能引发奇迹。但是神怕把世界搞坏了，所以会针对有这样能力的人。亦或者说是灵魂。像是男主那种前N多辈子都没过上啥好生活，对追求幸福生活执念非常深的灵魂就是一个世界恐怖分子的说。（拒绝邀请等于死）</p><p>死了但是没有追求到幸福的生活。咔重置了。女友重新进入轮回，咔拽出来了。属实玄乎。</p><p>所以结局是男主又引发了奇迹。又搞了大事情。</p><p>不过这个大事情是好活，救活女朋友好评！</p>    </div></div><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 评鉴 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> 评鉴 </tag>
+            
+            <tag> gal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>surface使用浅谈&amp;吐槽</title>
+      <link href="posts/dd67fb2/"/>
+      <url>posts/dd67fb2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="surface还是要有笔和键盘才能用的东西"><a href="#surface还是要有笔和键盘才能用的东西" class="headerlink" title="surface还是要有笔和键盘才能用的东西"></a>surface还是要有笔和键盘才能用的东西</h2><p><em>surface</em>默认是没有笔和键盘的，只有独立的主机。笔和键盘都是选配的。（但是也同时提供了虚拟键盘，这点也还行吧）</p><p>但是<em>surface</em>既然要配得上平面的称号其实还是要放平了来用。这样才能体现它的名号不是吗。</p><h4 id="配套的笔是不太行，但是毕竟是surface"><a href="#配套的笔是不太行，但是毕竟是surface" class="headerlink" title="配套的笔是不太行，但是毕竟是surface"></a>配套的笔是不太行，但是毕竟是surface</h4><p>配套的笔其实不是很合适吧。毕竟这个面板是纯玻璃的，完全没有阻尼感，对于像FOX这样习惯用钢笔，而且还是欧系的钢笔（欧系的钢笔的阻尼感实际上非常强，纸不够光滑就会刮纸），感到有点不是很习惯。</p><blockquote><p>对纸的眼光独特的FOX，之后有时间的话，也可以来说说钢笔的纸</p></blockquote><h4 id="键盘很抽象，但是最好有"><a href="#键盘很抽象，但是最好有" class="headerlink" title="键盘很抽象，但是最好有"></a>键盘很抽象，但是最好有</h4><p>键盘怎么说，很薄。不能像机械键盘那样提供一个漂亮的手感。</p><p>如果要入手surface请不要忘了键盘，这玩意可以说是一物多用，保护套也是这玩意。保证玻璃的触控屏不容易磕碰。不然一个玻璃面板我记得无保修好像还是挺贵的。</p><h2 id="笔的使用细节浅谈"><a href="#笔的使用细节浅谈" class="headerlink" title="笔的使用细节浅谈"></a>笔的使用细节浅谈</h2><p>surface官方的笔是金属的，所以其实是挺有质感的。凡是长时间使用之后会感到不舒服，因为经常使用尾端的橡皮需要经常上下转动这个笔。</p><p>如果不把surface放平其实，笔没什么用，点按可以。如果拿来玩游戏基本是不太可能。画画写字斜着写难道不奇怪吗？</p><p>有一点要说，不对这个手写进行训练（<strong>写字帖</strong>）的话（到设置里面去写大量的样本用于设置识别模型），你写个连笔或者其他特别一点的字体，他就认不出来了。</p><p>去写过字帖（50页两行，也不用全写完，基本上先把标点搞定）之后，准确度会得到提高。可以表扬。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>surface不适合作为游戏本，配置上没有独立显卡，只有独立显存，内存倒是可以mc可以跑的动，但是带不动光影，除此之外推gal其实也还行吧。。。</p><p align="right">MR04</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吐槽 </tag>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> 生产力工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>参与Folding@home帮忙研制新冠肺炎疫苗</title>
+      <link href="posts/990a52ac/"/>
+      <url>posts/990a52ac/</url>
+      
+        <content type="html"><![CDATA[<h2 id="有闲置算力的各位可以帮忙参与这个分布式计算项目帮忙研制新冠肺炎疫苗"><a href="#有闲置算力的各位可以帮忙参与这个分布式计算项目帮忙研制新冠肺炎疫苗" class="headerlink" title="有闲置算力的各位可以帮忙参与这个分布式计算项目帮忙研制新冠肺炎疫苗"></a>有闲置算力的各位可以帮忙参与这个分布式计算项目帮忙研制新冠肺炎疫苗</h2><p>早一个月预警，我们也许不会面对这样的局面，但是它发生了。</p><p>如果可以让疫苗早<strong>一个月</strong>或者<strong>早半年</strong>出来，<strong>你</strong>是否愿意捐献你的<strong>一部分算力</strong>，为了一份<strong>希望</strong>？</p><p><strong>说在前面不是挖矿项目</strong><br><a href="https://zh.wikipedia.org/zh/Folding@home" title="维基百科"><strong>维基百科</strong></a><br><a href="https://baike.baidu.com/item/Folding@home" title="百度百科"><strong>百度百科</strong></a></p><blockquote><p><a href="https://tantannews.com/tech/y5eVOpVBaE" title="其他更为详细的资料">其他更为详细的资料</a><br><a href="https://moore.live/news/201290/detail/" title="其他更为详细的资料2">其他更为详细的资料2</a></p></blockquote><h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>此项目最早于2000年由斯坦福医学院建立，已经有20年历史，最近他们转到新冠肺炎的模拟和疫苗研发 ，主要原理是利用分布式计算，将个人电脑计算能力集中进来，组成超级计算机来对新冠病毒进行分析并研发疫苗。有大量志愿者捐献了他们的计算能力，在发稿当天已经有1,029,546 台设备加入 <a href="https://twitter.com/foldingathome/status/1245458440220217344?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet" title="官方推特">官方推特</a>。</p><p>目前这是全人类最大的算力集结行动。10天前他们的算力已经超过全球TOP 7超算算力的总和。</p><p><a href="https://foldingathome.org/">官方主页</a><br><a href="https://foldingathome.org/start-folding/">软件下载</a><br><a href="https://twitter.com/foldingathome">官方Twitter</a></p><p><img src="https://s1.ax1x.com/2020/04/03/GUrfaR.jpg" alt="Windows运行方式"></p><h2 id="为什么要加入"><a href="#为什么要加入" class="headerlink" title="为什么要加入"></a>为什么要加入</h2><p>尽早恢复世界秩序，你一样只需要付出几块钱的电费！<br>你不需要扛枪，请捐出你8核CPU的两个就好！<br>我们不能只喊口号，请切实行动起来，为了避免将到来的世界危机，为世界争取时间！</p><p><strong>个人觉得加入不会有政治倾向问题</strong>，你是在为<strong>全人类的生存，世界秩序</strong>的尽早恢复做出你能做的事情，理想情况下如果每个人如果平均减少1秒钟的时间，当前我们可以减少1,029,546秒！几天，几个月都有可能，只要有<strong>你</strong>。</p><h2 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h2><p>你如果想玩游戏，不喜欢占用时间，可以随时停掉这个软件，他发布任务的时限给的非常宽松，接到一个任务，一般只需要3小时左右的时间， 而你有1天的时间可以提交，所以即使下载，也不用担心自己的电脑被当成矿机，愿意捐献到什么程度都可以自己来定，如果你下载安装，个人先表敬意，谢谢你！</p><p>如若你要玩游戏或是觉得风扇太吵，请点击系统托盘里面的图标，选择Advanced Control,，然后 选择左上角的Configure, 选到slots分页，里面可以调整捐献的设备，包括<strong>CPU核心数量和GPU的配置</strong>，这样一来，正常生活和抗疫恢复秩序几不误，谢谢大家！</p><p><strong>这个软件里面可以调整你愿意捐献的具体设备 ，包括CPU可以精确到几个核心，是否愿意捐献CUDA核心都可以调。</strong></p><h2 id="官方推特最新消息"><a href="#官方推特最新消息" class="headerlink" title="官方推特最新消息"></a>官方推特最新消息</h2><p>4月3日，官方推特消息：<br>美东时间4月9日下午4～5点会召开一次技术会议讨论如何增强当前F@h的技术架构，技术狂人可以考虑参加，请填写<a href="https://t.co/mskA5ctEbv?amp=1" title="表单">表单</a> ，成功会收到一个Discord邀请！<a href="https://twitter.com/foldingathome/status/1245758023412453378" title="(source)">(source)</a></p><h2 id="官网截图"><a href="#官网截图" class="headerlink" title="官网截图"></a>官网截图</h2><p><img src="https://s1.ax1x.com/2020/04/03/GUh3wT.jpg" alt="官网截图"></p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> 新冠肺炎 </tag>
+            
+            <tag> 每个人的力量 </tag>
+            
+            <tag> 你的一份力量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>夏娃年代记2通关感受</title>
+      <link href="posts/2c005531/"/>
+      <url>posts/2c005531/</url>
+      
+        <content type="html"><![CDATA[<h1 id="夏娃年代记2"><a href="#夏娃年代记2" class="headerlink" title="夏娃年代记2"></a>夏娃年代记2</h1><p><img src="https://s1.ax1x.com/2020/03/30/GnkS4e.png" alt="夏娃2.png"><br>先放几个游戏的相关链接,可以自己去看看</p><blockquote><p><a href="https://www.alicesoft.com/evenicle2/"><strong>游戏官网</strong></a></p></blockquote><blockquote><p><a href="https://www.2dfan.com/subjects/7833"><strong>2dfan</strong></a></p></blockquote><blockquote><p><a href="http://www.getchu.com/soft.phtml?id=1022118&gc=gc"><strong>g网界面</strong></a></p></blockquote><h1 id="其他的信息"><a href="#其他的信息" class="headerlink" title="其他的信息"></a>其他的信息</h1><p>1.译名：《夏娃年代记2》；《夏娃编年史2》；《伊芙编年史2》</p><p>2.原名：Evenicle -イブニクル- 2</p><p>3.游戏类型：RPG</p><p>4.发售时间：2019年2月22日</p><p>5.出品公司：ALICE SOFT</p><p>6.对象年龄：18禁</p><p>7.结局数：1个</p><p>8.画面尺寸：1280×720</p><p>9.剧本：yoichiro；醉鬼·龙；犬丼</p><p>10.人设/原画：八重樫南；竜美あまゆ；たっくん；瑠奈璃亚；织音</p><p>11.音乐：水夏える；PKタートルズ</p><p>12.主角：阿雷克</p><p>13.声优：冈本理绘（雪柊）；桐村真里（枫乃·雷弗汉德）；樱咲千依（普拉琪娜）；神保巴（夏洛特·布隆特）；小澤みのり（艾米莉亚·布隆特）；中田顺子（伊甸）；佐倉ゆき（零）；高城みつ（柊叶）；拝師みほ（帕特莉欧忒·阿基莫夫）；铃谷真夜（丝巴达·藏握）；石原舞（洛娜·海莱恩）；早濑弥生（布朗尼）；绫音真子（波尼·卡拉）；近藤祐记（泽佩特）；仪武祐子（玛琪娜）；石原爱依梨（艾彼德）；水菜もやし（哈梅伦）；樱木章人（匹洛斯）；桥本悠（琼）；久保田健介（亚纳·海莱恩）；冈崎雅纮（尤巴）；樱井浩美（玛斯卡蕾德）；永濑蜜柑（拉乌娜）；空贺花（穹丝）；景浦大辅（陶洛斯）；增田雄市（贝斯克）；笹岛芳（科拉丝）；仁志田龙矢（猿雷）；水口茉莉（希特）；米岛希（佩忒莉·阿基莫夫）；高橋二乃（姬恩·伯恩、戈·藏握）；黒衣虹男（夏克托利·雷弗汉德）；世安日光（塞德里克·布隆特）；柚原みう（库·龙）；尾崎未来（亚瑟）；藤本教子（拉米亚斯·德莱森）</p><p>14.关键词：ALICE SOFT</p><p>15.关联作品：前作为《夏娃年代记》</p><p>以上资料引用自<a href="https://zhuanlan.zhihu.com/p/87570076">知乎谭亭大佬</a></p><blockquote><p>Alicesoft 超人气作品「イブニクル」系列第二弹！<br>些许怀旧的RPG作品，本作同样充满了Alicesoft 独有的要素♪<br>前作广受好评的「从容不迫的游戏性」及「恰到好处的难度」将在本作得到继承，敬请期待！</p></blockquote><blockquote><p>流行病蔓延的世界中现身的主人公，以通过H治愈疾病的技能为武器，只身为拯救众多少女踏上了征程！</p></blockquote><blockquote><p>故事介绍<br>人称“英雄病”症状蔓延的世界。<br>一旦使用技能・魔法，便会被病魔侵入，甚至死亡。<br>拥有战斗才能的人，抱着必死的觉悟与怪物战斗着。<br>为了一切幸存的家人与伙伴，哪怕能够多消灭一只怪物。</p></blockquote><blockquote><p>在这个悲剧性世界中，一位掌握传说医术技能的青年，アレク出现了。<br>拥有此医术技能的人，可以进行无创伤手术，而且体液是包治百病的良药……</p></blockquote><blockquote><p>青年医术师アレク，为了拯救饱受英雄病折磨的美少女们，踏上了征程。</p></blockquote><h1 id="个人评鉴时间"><a href="#个人评鉴时间" class="headerlink" title="个人评鉴时间"></a>个人评鉴时间</h1><p>首先这一次的男主<em>阿雷克</em>比起上一篇主角<em>阿斯塔</em>，看起来顺眼，真的顺眼。特别是在QD那里两个人同时出现的时候，特别明显。</p><p>这一部作品的画师阵容变大了，使得某些内容变得好用起来。总体上来说还是刷级的时间多于HCG。</p><p>英雄病的设定回环解释地还是不错的，伏笔收回什么的还是让人感觉很满意的。</p><p>大圣女和圣骑士的设定是比较合理也比较，也比较难以预料的。就背景的设定来说是让人感觉比较丰满且充实的。</p><p>就声优来说演出尚可，没有看到什么出人意料的崩坏吧。</p><p>人物塑造不如第一部是很中肯的评价。边境伯爵枫乃的性格还是很突出吧。在所有女主里面表现还是很突出的，夏日少女还是很有演出效果的。其他的女主的塑造略显乏力。（唯一可圈可点的就是雪柊的防御真的很厚，每场大战斗下来大概率就剩下个阿雷克和雪柊。可以说是很奇怪了）</p><p>对于这一部的平衡性，难度略大，推动剧情的话略感困难，刷级和解除英雄病花费的时间很长，不是很有剧情连贯性吧。</p><blockquote><ul><li>全图的世界boss，满级不一定能打得过。&lt;-这点实在是无力吐槽，收集党很难受啊。</li><li>全cg档 &lt;-赞美收集man，这实在是不错</li></ul></blockquote><h2 id="资源Time，资源第一"><a href="#资源Time，资源第一" class="headerlink" title="资源Time，资源第一"></a>资源Time，资源第一</h2><p><a href="https://www.hhgal.com/evenicle2.html" title="忧郁的弟弟">忧郁的弟弟</a></p><blockquote><p>我本人也有OneDrive链接可以分享一并放在下面，七天过期。<br>过期了的话的可以邮件或者telegram问我，我单独给你补链接。</p></blockquote><p><a href="https://alphaone-my.sharepoint.cn/:f:/g/personal/freesia_mqk_me/EuiTc2ynWutIjIGzDA_sIKcBZPvR1QmeEnplawP-Je-MHQ?e=yMfJeN" title="OneDrive">作者的中国OD</a><br>到期时间：星期一 4 月 6 2020</p><h2 id="剧情吐槽的时间"><a href="#剧情吐槽的时间" class="headerlink" title="剧情吐槽的时间"></a>剧情吐槽的时间</h2><p><strong>以下内容可能涉及剧透,谨慎观看</strong></p><p>英雄病的设计，还是可以的，但是<strong>男主的技能</strong>实际上草爆了阿，打一针什么的你这让我怎么吐槽。</p><blockquote><p>就是男主把药材吃下去，然后对女性打针，所以治疗之后大多成为了男主的后宫<br>因为男主说自己不想搞基所以没办法第一次就治疗男性，得治疗女性之后，学会了制药的方法才能去治疗。</p></blockquote><p>首先琼是圣骑士，然后做了不知道多久的国王，这一点还是挺出人意料的，这也导致了要打两遍boss的难过境地。（指要先杀圣骑士后杀大圣女)</p><p>然后对于这一部的凌辱部分较第一部少了很多，对于纯爱党还是很合，但是还是有几次的。例如海卡拉-波尼 来说有一次NTR，确确实实是NTR，因为被对方吃了药之后变成了怪物凭借自己的意志触手play了。</p><p>三公爵的设定也是挺奇怪的<img src="https://s1.ax1x.com/2020/03/30/Gnpt4s.png" alt="夏娃2&lt;三公爵&gt;">看到就感觉到不对劲，多年gal的直觉你应该也能意料到的说。</p><h2 id="最后总结一下"><a href="#最后总结一下" class="headerlink" title="最后总结一下"></a>最后总结一下</h2><p>游戏整体略感沙雕可以吐槽一波，还有很多没有说到的地方，但是大体上都说到了。</p><p align="right">2020年的FOX要更好啊</p><p align="right">MR04</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 评鉴 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> galgame </tag>
+            
+            <tag> 评鉴 </tag>
+            
+            <tag> RPG </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对于开展网课的一些感想</title>
+      <link href="posts/fe4ae92/"/>
+      <url>posts/fe4ae92/</url>
+      
+        <content type="html"><![CDATA[<h2 id="钉钉的软件设计拿来网络教学属实清奇"><a href="#钉钉的软件设计拿来网络教学属实清奇" class="headerlink" title="钉钉的软件设计拿来网络教学属实清奇"></a>钉钉的软件设计拿来网络教学属实清奇</h2><p>钉钉的设计本来就不是很适合<strong>网络教学</strong></p><p>起码的缺点就有</p><ol><li><p>钉钉的<strong>连麦</strong>体验属实糟糕，如果两个连麦双方都没有使用耳机的话，就会产生严重的杂音，完全没有体验。</p></li><li><p>不能<strong>共享黑板</strong>，授权学生使用公屏更是雪上加霜。和第一点两相结合，严重降低了老师学生的交流率。</p></li><li><p><strong>延迟</strong>也是大的要命，看到问题的时候，老师那边已经等了挺久了。对于授课老师和学生都是不好的体验。</p></li></ol><blockquote><p>就FOX自己使用过的其他软件，像直播云和Classin来说延迟就要小很多，大概就是可以拿来一对一的延迟吧。</p></blockquote><h2 id="本来就不是为了网络教学的软件任然不思进取"><a href="#本来就不是为了网络教学的软件任然不思进取" class="headerlink" title="本来就不是为了网络教学的软件任然不思进取"></a>本来就不是为了网络教学的软件任然不思进取</h2><p>在发现钉钉的设计如此清奇之后，发现钉钉除了完善了作业系统（其实做的也不好,对于老师方面也可以感觉到批改体验极其差劲）其他方面仍然无动于衷。</p><p>钉钉原来是做协同办公，企业管理的软件，这点应该不用反复强调吧。</p><p>为啥要拿钉钉来远程授课啊，本来远程授课就挺不方便的，挑不好用的软件是个什么鬼逻辑，纯属学校领导折磨老师和学生啊！</p><p><strong>最后FOX期望2020年不要继续艰难下去了</strong></p><p align="right">2020年的FOX要更好啊</p><p align="right">MR04</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 吐槽 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2020 </tag>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> 网课 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>梦幻开局 2020</title>
+      <link href="posts/a2c1c345/"/>
+      <url>posts/a2c1c345/</url>
+      
+        <content type="html"><![CDATA[<h2 id="梦幻开局-2020"><a href="#梦幻开局-2020" class="headerlink" title="梦幻开局 2020"></a>梦幻开局 2020</h2><p>属实玄幻的2020 简直太强了，今年啥没想到的，想到的都发生了</p><blockquote><p> 小说是人类对生活的合理想象，起码是合理的，但生活才是真正的不合理了</p></blockquote><p>开年，春节还没过，肺炎就来了。后面的新闻更是魔幻到爆炸好么，完全无法想象。</p><h2 id="网课和中考一起让人备受煎熬"><a href="#网课和中考一起让人备受煎熬" class="headerlink" title="网课和中考一起让人备受煎熬"></a>网课和中考一起让人备受煎熬</h2><p>龟龟肺炎就无法去学校上课，每天都是奇葩网课。</p><p>不得不说<em>Surface</em>和<em>Office365</em>真的是生产力工具。用到的时候都说好。</p><h2 id="闲的出毛病了，就搭了个博客的FOX是鉴"><a href="#闲的出毛病了，就搭了个博客的FOX是鉴" class="headerlink" title="闲的出毛病了，就搭了个博客的FOX是鉴"></a>闲的出毛病了，就搭了个博客的FOX是鉴</h2><p><em>Blog</em>主要还是<strong>杂谈</strong>为主，还有从各种地方找来的<strong>资源</strong>（都转到世纪互联版的<em>OneDrive</em>上了，比较方便吧）</p><p align="right">2020年的FOX要更好啊</p><p align="right">MR04</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 吐槽 </tag>
+            
+            <tag> 2020 </tag>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> 生产力工具 </tag>
+            
+            <tag> 那些优秀的软件们 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
