@@ -6,7 +6,7 @@
   <link href="https://mr04.me/atom.xml" rel="self"/>
   
   <link href="https://mr04.me/"/>
-  <updated>2020-04-23T04:30:02.000Z</updated>
+  <updated>2021-03-02T07:52:44.000Z</updated>
   <id>https://mr04.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单一备份的痛</title>
+    <link href="https://mr04.me/posts/57557/"/>
+    <id>https://mr04.me/posts/57557/</id>
+    <published>2021-03-02T07:52:44.000Z</published>
+    <updated>2021-03-02T07:52:44.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;曾经有一份完整的备份摆在我面前&quot;&gt;&lt;a href=&quot;#曾经有一份完整的备份摆在我面前&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="日记" scheme="https://mr04.me/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="难过的生活" scheme="https://mr04.me/tags/%E9%9A%BE%E8%BF%87%E7%9A%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>SSR客户端-ShadowsocksR-win使用浅谈</title>
@@ -125,9 +150,9 @@
     
     <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="生产力工具" scheme="https://mr04.me/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
-    
     <category term="吐槽" scheme="https://mr04.me/tags/%E5%90%90%E6%A7%BD/"/>
+    
+    <category term="生产力工具" scheme="https://mr04.me/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -245,11 +270,11 @@
     
     <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
     
+    <category term="吐槽" scheme="https://mr04.me/tags/%E5%90%90%E6%A7%BD/"/>
+    
     <category term="生产力工具" scheme="https://mr04.me/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
     
     <category term="那些优秀的软件们" scheme="https://mr04.me/tags/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BB%AC/"/>
-    
-    <category term="吐槽" scheme="https://mr04.me/tags/%E5%90%90%E6%A7%BD/"/>
     
   </entry>
   
