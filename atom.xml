@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>洛梓岚&#39;s Blog | 洛梓岚的博客</title>
-  <icon>https://mr04.me/icon.png</icon>
+  <icon>https://luozilan.us/icon.png</icon>
   <subtitle>废柴狐的个人记录</subtitle>
-  <link href="https://mr04.me/atom.xml" rel="self"/>
+  <link href="https://luozilan.us/atom.xml" rel="self"/>
   
-  <link href="https://mr04.me/"/>
+  <link href="https://luozilan.us/"/>
   <updated>2021-03-02T07:52:44.000Z</updated>
-  <id>https://mr04.me/</id>
+  <id>https://luozilan.us/</id>
   
   <author>
     <name>洛梓岚</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>单一备份的痛</title>
-    <link href="https://mr04.me/posts/57557/"/>
-    <id>https://mr04.me/posts/57557/</id>
+    <link href="https://luozilan.us/posts/57557/"/>
+    <id>https://luozilan.us/posts/57557/</id>
     <published>2021-03-02T07:52:44.000Z</published>
     <updated>2021-03-02T07:52:44.000Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="日记" scheme="https://mr04.me/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://luozilan.us/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="难过的生活" scheme="https://mr04.me/tags/%E9%9A%BE%E8%BF%87%E7%9A%84%E7%94%9F%E6%B4%BB/"/>
+    <category term="难过的生活" scheme="https://luozilan.us/tags/%E9%9A%BE%E8%BF%87%E7%9A%84%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>SSR客户端-ShadowsocksR-win使用浅谈</title>
-    <link href="https://mr04.me/posts/74070353/"/>
-    <id>https://mr04.me/posts/74070353/</id>
+    <link href="https://luozilan.us/posts/74070353/"/>
+    <id>https://luozilan.us/posts/74070353/</id>
     <published>2020-04-23T04:30:02.000Z</published>
     <updated>2020-04-23T04:30:02.000Z</updated>
     
@@ -62,19 +62,19 @@
     
     
     
-    <category term="那些工具们" scheme="https://mr04.me/categories/%E9%82%A3%E4%BA%9B%E5%B7%A5%E5%85%B7%E4%BB%AC/"/>
+    <category term="那些工具们" scheme="https://luozilan.us/categories/%E9%82%A3%E4%BA%9B%E5%B7%A5%E5%85%B7%E4%BB%AC/"/>
     
     
-    <category term="生产力工具" scheme="https://mr04.me/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    <category term="生产力工具" scheme="https://luozilan.us/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="那些优秀的软件们" scheme="https://mr04.me/tags/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BB%AC/"/>
+    <category term="那些优秀的软件们" scheme="https://luozilan.us/tags/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BB%AC/"/>
     
   </entry>
   
   <entry>
     <title>岚用的一家机场——海豚湾</title>
-    <link href="https://mr04.me/posts/38110c2/"/>
-    <id>https://mr04.me/posts/38110c2/</id>
+    <link href="https://luozilan.us/posts/38110c2/"/>
+    <id>https://luozilan.us/posts/38110c2/</id>
     <published>2020-04-15T14:49:32.000Z</published>
     <updated>2020-04-15T14:49:32.000Z</updated>
     
@@ -89,19 +89,19 @@
     
     
     
-    <category term="评鉴" scheme="https://mr04.me/categories/%E8%AF%84%E9%89%B4/"/>
+    <category term="评鉴" scheme="https://luozilan.us/categories/%E8%AF%84%E9%89%B4/"/>
     
     
-    <category term="评鉴" scheme="https://mr04.me/tags/%E8%AF%84%E9%89%B4/"/>
+    <category term="评鉴" scheme="https://luozilan.us/tags/%E8%AF%84%E9%89%B4/"/>
     
-    <category term="那些好用的工具们" scheme="https://mr04.me/tags/%E9%82%A3%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7%E4%BB%AC/"/>
+    <category term="那些好用的工具们" scheme="https://luozilan.us/tags/%E9%82%A3%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7%E4%BB%AC/"/>
     
   </entry>
   
   <entry>
     <title>《星光咖啡馆与死神之蝶》评鉴TIME</title>
-    <link href="https://mr04.me/posts/675dda8b/"/>
-    <id>https://mr04.me/posts/675dda8b/</id>
+    <link href="https://luozilan.us/posts/675dda8b/"/>
+    <id>https://luozilan.us/posts/675dda8b/</id>
     <published>2020-04-10T01:56:30.000Z</published>
     <updated>2020-04-10T01:56:30.000Z</updated>
     
@@ -116,21 +116,21 @@
     
     
     
-    <category term="评鉴" scheme="https://mr04.me/categories/%E8%AF%84%E9%89%B4/"/>
+    <category term="评鉴" scheme="https://luozilan.us/categories/%E8%AF%84%E9%89%B4/"/>
     
     
-    <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="评鉴" scheme="https://mr04.me/tags/%E8%AF%84%E9%89%B4/"/>
+    <category term="评鉴" scheme="https://luozilan.us/tags/%E8%AF%84%E9%89%B4/"/>
     
-    <category term="gal" scheme="https://mr04.me/tags/gal/"/>
+    <category term="gal" scheme="https://luozilan.us/tags/gal/"/>
     
   </entry>
   
   <entry>
     <title>surface使用浅谈&amp;吐槽</title>
-    <link href="https://mr04.me/posts/dd67fb2/"/>
-    <id>https://mr04.me/posts/dd67fb2/</id>
+    <link href="https://luozilan.us/posts/dd67fb2/"/>
+    <id>https://luozilan.us/posts/dd67fb2/</id>
     <published>2020-04-08T07:31:36.000Z</published>
     <updated>2020-04-08T07:31:36.000Z</updated>
     
@@ -145,21 +145,21 @@
     
     
     
-    <category term="杂谈" scheme="https://mr04.me/categories/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="吐槽" scheme="https://mr04.me/tags/%E5%90%90%E6%A7%BD/"/>
+    <category term="吐槽" scheme="https://luozilan.us/tags/%E5%90%90%E6%A7%BD/"/>
     
-    <category term="生产力工具" scheme="https://mr04.me/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    <category term="生产力工具" scheme="https://luozilan.us/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>参与Folding@home帮忙研制新冠肺炎疫苗</title>
-    <link href="https://mr04.me/posts/990a52ac/"/>
-    <id>https://mr04.me/posts/990a52ac/</id>
+    <link href="https://luozilan.us/posts/990a52ac/"/>
+    <id>https://luozilan.us/posts/990a52ac/</id>
     <published>2020-04-03T06:30:12.000Z</published>
     <updated>2020-04-03T06:30:12.000Z</updated>
     
@@ -174,23 +174,23 @@
     
     
     
-    <category term="记录" scheme="https://mr04.me/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://luozilan.us/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="新冠肺炎" scheme="https://mr04.me/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E/"/>
+    <category term="新冠肺炎" scheme="https://luozilan.us/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E/"/>
     
-    <category term="每个人的力量" scheme="https://mr04.me/tags/%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F/"/>
+    <category term="每个人的力量" scheme="https://luozilan.us/tags/%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F/"/>
     
-    <category term="你的一份力量" scheme="https://mr04.me/tags/%E4%BD%A0%E7%9A%84%E4%B8%80%E4%BB%BD%E5%8A%9B%E9%87%8F/"/>
+    <category term="你的一份力量" scheme="https://luozilan.us/tags/%E4%BD%A0%E7%9A%84%E4%B8%80%E4%BB%BD%E5%8A%9B%E9%87%8F/"/>
     
   </entry>
   
   <entry>
     <title>夏娃年代记2通关感受</title>
-    <link href="https://mr04.me/posts/2c005531/"/>
-    <id>https://mr04.me/posts/2c005531/</id>
+    <link href="https://luozilan.us/posts/2c005531/"/>
+    <id>https://luozilan.us/posts/2c005531/</id>
     <published>2020-03-30T00:52:25.000Z</published>
     <updated>2020-03-30T00:52:25.000Z</updated>
     
@@ -205,23 +205,23 @@
     
     
     
-    <category term="评鉴" scheme="https://mr04.me/categories/%E8%AF%84%E9%89%B4/"/>
+    <category term="评鉴" scheme="https://luozilan.us/categories/%E8%AF%84%E9%89%B4/"/>
     
     
-    <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="galgame" scheme="https://mr04.me/tags/galgame/"/>
+    <category term="galgame" scheme="https://luozilan.us/tags/galgame/"/>
     
-    <category term="评鉴" scheme="https://mr04.me/tags/%E8%AF%84%E9%89%B4/"/>
+    <category term="评鉴" scheme="https://luozilan.us/tags/%E8%AF%84%E9%89%B4/"/>
     
-    <category term="RPG" scheme="https://mr04.me/tags/RPG/"/>
+    <category term="RPG" scheme="https://luozilan.us/tags/RPG/"/>
     
   </entry>
   
   <entry>
     <title>对于开展网课的一些感想</title>
-    <link href="https://mr04.me/posts/fe4ae92/"/>
-    <id>https://mr04.me/posts/fe4ae92/</id>
+    <link href="https://luozilan.us/posts/fe4ae92/"/>
+    <id>https://luozilan.us/posts/fe4ae92/</id>
     <published>2020-03-09T16:00:00.000Z</published>
     <updated>2020-03-09T16:00:00.000Z</updated>
     
@@ -236,21 +236,21 @@
     
     
     
-    <category term="吐槽" scheme="https://mr04.me/categories/%E5%90%90%E6%A7%BD/"/>
+    <category term="吐槽" scheme="https://luozilan.us/categories/%E5%90%90%E6%A7%BD/"/>
     
     
-    <category term="网课" scheme="https://mr04.me/tags/%E7%BD%91%E8%AF%BE/"/>
+    <category term="网课" scheme="https://luozilan.us/tags/%E7%BD%91%E8%AF%BE/"/>
     
-    <category term="2020" scheme="https://mr04.me/tags/2020/"/>
+    <category term="2020" scheme="https://luozilan.us/tags/2020/"/>
     
-    <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
   <entry>
     <title>梦幻开局 2020</title>
-    <link href="https://mr04.me/posts/a2c1c345/"/>
-    <id>https://mr04.me/posts/a2c1c345/</id>
+    <link href="https://luozilan.us/posts/a2c1c345/"/>
+    <id>https://luozilan.us/posts/a2c1c345/</id>
     <published>2020-03-06T16:00:00.000Z</published>
     <updated>2020-03-06T16:00:00.000Z</updated>
     
@@ -266,15 +266,15 @@
     
     
     
-    <category term="2020" scheme="https://mr04.me/tags/2020/"/>
+    <category term="2020" scheme="https://luozilan.us/tags/2020/"/>
     
-    <category term="杂谈" scheme="https://mr04.me/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://luozilan.us/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="吐槽" scheme="https://mr04.me/tags/%E5%90%90%E6%A7%BD/"/>
+    <category term="吐槽" scheme="https://luozilan.us/tags/%E5%90%90%E6%A7%BD/"/>
     
-    <category term="生产力工具" scheme="https://mr04.me/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    <category term="生产力工具" scheme="https://luozilan.us/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="那些优秀的软件们" scheme="https://mr04.me/tags/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BB%AC/"/>
+    <category term="那些优秀的软件们" scheme="https://luozilan.us/tags/%E9%82%A3%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BB%AC/"/>
     
   </entry>
   

@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://mr04.me/</loc>
+        <loc>https://luozilan.us/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
@@ -10,7 +10,7 @@
     
     
     <url>
-        <loc>https://mr04.me/bangumis/</loc>
+        <loc>https://luozilan.us/bangumis/</loc>
         <lastmod>2020-04-09T01:37:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -19,7 +19,7 @@
     
     
     <url>
-        <loc>https://mr04.me/about/</loc>
+        <loc>https://luozilan.us/about/</loc>
         <lastmod>2020-03-28T14:20:03.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     
     
     <url>
-        <loc>https://mr04.me/friends/</loc>
+        <loc>https://luozilan.us/friends/</loc>
         <lastmod>2018-12-12T13:25:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -37,7 +37,7 @@
     
     
     <url>
-        <loc>https://mr04.me/tags/</loc>
+        <loc>https://luozilan.us/tags/</loc>
         <lastmod>2018-09-30T10:23:38.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -46,7 +46,7 @@
     
     
     <url>
-        <loc>https://mr04.me/categories/</loc>
+        <loc>https://luozilan.us/categories/</loc>
         <lastmod>2018-09-30T09:25:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
