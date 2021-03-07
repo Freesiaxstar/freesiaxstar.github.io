@@ -12,5 +12,5 @@ Disallow: /vendors/
 Disallow: /fancybox/
 Disallow: /links/
 
-Sitemap: https://mr04.me/sitemap.xml
-Sitemap: https://mr04.me/baidusitemap.xml
+Sitemap: https://luozilan.us/sitemap.xml
+Sitemap: https://luozilan.us/baidusitemap.xml
